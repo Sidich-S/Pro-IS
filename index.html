@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Iya_Sayenko</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Niconne&display=swap"
+      rel="stylesheet"
+    />
+    <!-- normalize animation -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+   <link rel="stylesheet" href="styles/styles.css"/>
+  </head>
+
+  <body>
+<!-- Секція шапка -->
+<section>
+    <header class="header">
+      <div class="container">
+        <div class="header__navbar">
+          <div class="header__box">       
+          <ul class="header__firstsection">
+            <li class="header__firstnav">
+              <a class="header__link" href="">Home</a>
+            </li>
+            <li class="header__firstnav">
+              <a class="header__link" href="">Gallery</a>
+            </li>
+            <li class="header__firstnav">
+              <a class="header__link" href="">Price</a>
+            </li>
+          </ul>
+          <div class="logo">
+            <a class="header__logo" href="#">
+              <svg class="logo__icon" width="50" hiegh="50">
+                <use href="/img/symbol-defs.svg#barberrscissors"></use>
+              </svg>
+            </a>
+          </div>
+          <ul class="header__secondsection">
+            <li class="header__secondnav">
+              <a class="header__link" href="">Advanteges</a>
+            </li>
+            <li class="header__secondnav">
+              <a class="header__link" href="">Cosmetics</a>
+            </li>
+            <li class="header__secondnav">
+              <a class="header__link" href="">Contacts</a>
+            </li>
+          </ul>
+          </div>
+          <a class="lang" href="#">language</a>
+        </div>
+      </div>
+
+      <!-- Створюємо скрите меню -->
+      <button type="button" class="menu-button" data-menu-button>
+        <svg class="header__humburger" width="40" hiegh="40">
+          <use
+            class="iconhumb"
+            href="./images/symbol-defs.svg#menubuttom"
+          ></use>
+          <use
+            class="iconcross"
+            href="./images/symbol-defs.svg#icon-close-black"
+          ></use>
+        </svg>
+      </button>
+      <div class="hiddenmenu" data-menu>
+        <ul class="hiddenmenu__navmenu">
+          <li class="hiddenmenu__nav">
+            <a
+              class="hiddenmenu__navlink hiddenmenu__navlink--active header__link"
+              href="./index.html"
+              >Home</a
+            >
+          </li>
+          <li class="hiddenmenu__nav">
+            <a class="hiddenmenu__navlink header__link" href="#">Gallery</a>
+          </li>
+          <li class="hiddenmenu__nav">
+            <a class="hiddenmenu__navlink header__link" href="#">Price</a>
+          </li>
+        </ul>
+
+        <div class="logo">
+          <a class="header__logo hiddenlogo" href="#">
+            <svg class="logo__icon" width="80" hiegh="80">
+              <use href="./images/symbol-defs.svg#barberrscissors"></use>
+            </svg>
+          </a>
+        </div>
+
+        <ul class="hiddenmenu__navmenu">
+          <li class="hiddenmenu__navtwo">
+            <a
+              class="hiddenmenu__navlink hiddenmenu__navlink--active header__link"
+              href="./index.html"
+              >Advanteges</a
+            >
+          </li>
+          <li class="hiddenmenu__navtwo">
+            <a class="hiddenmenu__navlink header__link" href="#">Cosmetics</a>
+          </li>
+          <li class="hiddenmenu__navtwo">
+            <a class="hiddenmenu__navlink header__link" href="#">Contacts</a>
+          </li>
+        </ul>
+</section>
+
+<!-- Секція головна -->
+<section class="hero">
+  <div class="container container__hero">
+
+    <div class="hero-bloc">
+      <div class=" bloc-content">
+        <h2 class="bloc-content__titel">Beauty does not require victims. Beauty claims attention!</h2>
+        <img class="hero-avatar" src="/img/hero/image.png" alt="foto" height="500" width="320">
+      </div>
+
+     <div>
+       <button class="hero-btn" type="submit">RT!</button>
+     </div>
+
+      <div class="bloc-text">
+        <p> Good afternoon, my name is Iya, I am a master hairdresser with more than 15 years of experience.  I provide all types of hairdressing services.  I now live in Holton. I do hair removal with wax  If anyone needs it, I will be very happy.</p>   
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Секція прайс -->
+<section class="section">
+  <div class="container">
+    <h2 class="price-title"> _______________________________________________ PRICE LIST ___________________________________________________ </h2>
+      <ul class="price-list">
+      
+      <li class="price-item">
+        <img
+          class="price-item__photo"
+          src="/img/price/pngwing.com.png"
+          alt="фото"
+          height="250" width="280"
+        />
+        <div class="price-content">
+          <ul class="price-item__ul">
+            <li class="price-item__li">
+              <p class="price-item__text">
+                  Women's haircut - from __________ € 15
+              </p>
+            </li>
+            <li class="price-item__li">
+              <p class="price-item__text">
+                Men's and children's - from ______ € 10
+              </p>
+            </li>
+            <li class="price-item__li">
+              <p class="price-item__text">
+                Bangs - from _____________________ € 3
+              </p>
+            </li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="price-item">
+           <img
+          class="price-item__photo"
+          src="/img/price/klipartz.com.png"
+          alt="фото"
+          height="250" width="290"
+        />
+        <div class="price-content">
+          <ul class="price-item__ul">
+            <li class="price-item__li">
+              <p class="price-item__text">
+                Painting in one color - from ______ € 20 
+              </p>
+            </li>
+            <li class="price-item__li">
+              <p class="price-item__text">
+                Painting with your paint - from ___ € 5
+              </p>
+            </li>
+            <li class="price-item__li">
+              <p class="price-item__text">
+                Highlighting - from ______________ € 60
+              </p>
+            </li>
+            <li class="price-item__li">
+              <p class="price-item__text">
+                Eyebrow coloring - from __________ € 5
+              </p>
+            </li>
+            <li class="price-item__li">
+              <p class="price-item__text">
+                Eyebrow correction - from ________ € 3
+              </p>
+            </li>
+            <li class="price-item__li">
+              <p class="price-item__text">
+                Eyelash tinting ___________________ € 5
+              </p>
+            </li>
+
+          </ul>
+        </div>
+      </li>    
+       
+      <li class="price-item">
+        <img
+          class="price-item__photo"
+          src="/img/price/depilation.png"
+          alt="фото"
+          height="250" width="280"
+        />
+        <div class="price-content">
+          <ul class="price-item__ul">
+            <li class="price-item__li">
+              <p class="price-item__text">Epilation of the armpits __________ € 5 </p>
+            </li>
+            <li class="price-item__li">
+              <p class="price-item__text">Hair removal from legs to knees __ € 10</p>
+            </li>
+            <li class="price-item__li">
+              <p class="price-item__text">Full epilation of legs ______________ € 15</p>
+            </li>
+            <li class="price-item__li">
+              <p class="price-item__text">Epilation of hands ________________ € 10</p>
+            </li>
+             <li class="price-item__li">
+              <p class="price-item__text">Epilation of antennae _____________ € 5</p>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- Секція галерея -->
+<section class="section container carrent__section">
+    <div class="gallery__descrip">
+      <div class="gallery__menu">
+        <h2 class="gallery__menu--text">________________________________________________ OUR WORK ______________________________________________</h2>
+      </div>
+      <div class="nav__menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <p class="nav__item--text">Show all</p>
+          </li>
+          <li class="nav__item">
+            <p class="nav__item--text">Women's haircut</p>
+          </li>
+          <li class="nav__item">
+            <p class="nav__item--text">Men's and children's</p>
+          </li>
+          <li class="nav__item">
+            <p class="nav__item--text">Painting</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--Блок верхній жіночі фото    -->
+     <div class="photo">
+      <div class="female__photo">
+      <ul class="gallery">
+        <li><a class="gallery__item" src="/img/gallery/female(7).jpg">
+            <img class="gallery__image" src="/img/gallery/female(7).jpg" alt="фото женской прически">
+          </a></li>
+        <li><a class="gallery__item" src="/img/gallery/female(18).jpg">
+            <img class="gallery__image" src="/img/gallery/female(18).jpg" alt="фото женской прически">
+          </a></li>
+        <li><a class="gallery__item" src="/img/gallery/female(9).jpg">
+            <img class="gallery__image" src="/img/gallery/female(9).jpg" alt="фото женской прически">
+          </a></li>
+        <li><a class="gallery__item" src="/img/gallery/men(4).jpg">
+            <img class="gallery__image" src="/img/gallery/men(4).jpg" alt="фото муржской прически">
+          </a></li>
+        <li><a class="gallery__item" src="/img/gallery/men(5).jpg">
+            <img class="gallery__image" src="/img/gallery/men(5).jpg">
+          </a></li>
+        <li><a class="gallery__item" src="/img/gallery/men(3).jpg">
+            <img class="gallery__image" src="/img/gallery/men(3).jpg" alt="фото женской прически">
+          </a></li>
+        <li><a class="gallery__item" src="/img/gallery/female(22).jpg">
+            <img class="gallery__image" src="/img/gallery/female(22).jpg" alt="фото женской прически">
+          </a></li>
+        <li><a class="gallery__item" src="/img/gallery/female(12).jpg">
+            <img class="gallery__image" src="/img/gallery/female(12).jpg" alt="Nature Landscape">
+          </a></li>
+        <li><a class="gallery__item" src="/img/gallery/female(14).jpg">
+            <img class="gallery__image" src="/img/gallery/female(14).jpg" alt="фото женской прически">
+          </a></li>
+      </ul>
+
+    </div>
+</section>
+
+<!-- Секція космо -->
+<section class="section clients">
+  <div class="container">
+    <div class="clients__box">
+    <ul class="clients__list list">
+    <li class="clients__item list">
+        <a href="" class="clients__link">
+          <svg class="clients__icon" width="150" height="100">
+            <use
+              class="use"
+              href="/img/cosmo/logocosmet.svg#icon-alpecincb"
+            ></use>
+          </svg>
+        </a>
+    </li>
+
+     <li class="clients__item list">
+        <a href="" class="clients__link">
+          <svg class="clients__icon" width="150" height="130">
+            <use href="/img/cosmo/logocosmet.svg#icon-crew-1"></use>
+          </svg>
+        </a>
+      </li>
+
+      <li class="clients__item list">
+        <a href="" class="clients__link">
+          <svg class="clients__icon" width="170" height="80">
+            <use href="/img/cosmo/logocosmet.svg#icon-coiffm"></use>
+          </svg>
+        </a>
+      </li>      
+
+      <li class="clients__item list">
+        <a href="" class="clients__link">
+          <svg class="clients__icon" width="160" height="130">
+            <use href="/img/cosmo/logocosmet.svg#icon-daylogo"></use>
+          </svg>
+        </a>
+      </li>
+
+      <li class="clients__item list">
+        <a href="" class="clients__link">
+          <svg class="clients__icon" width="160" height="77">
+            <use
+              class="use"
+              href="/img/cosmo/logocosmet.svg#icon-redken"
+            ></use>
+          </svg>
+        </a>
+      </li>
+
+      <li class="clients__item list">
+        <a href="" class="clients__link">
+          <svg class="clients__icon" width="150" height="77">
+            <use href="/img/cosmo/logocosmet.svg#icon-bes_logo"></use>
+          </svg>
+        </a>
+      </li>
+
+    </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Секція переваги -->
+<section class="section advantage">
+    <div class="container">
+      <!-- Невидимий заголовок -->
+      <h2 class="advantage__title"> ________________________________________ OUR ADVANTAGE ________________________________________ </h2>
+      <ul class="advantage__list">
+        <li class="advantage__item">
+          <a class="advantage__link" href="#">
+            <div class="advantage__card">
+              <img
+                src="/img/img_advantage/photo_2022-09-14_19-01-44.jpg"
+                alt=""
+                class="advantage__img"
+              />
+              <div class="advantage__bcg">
+                  <div>
+                    <h2>Education:</h2>
+                      <ul class="advantage__bcg-list">
+                    <li>
+                      Sumy Lyceum of spheres and services;
+                    </li>
+                    <li>
+                      Hairdresser-fashion designer (honors degree);
+                    </li>
+                    <li>
+                      Kyiv National Institute of Culture and Art;
+                    </li>
+                    <li>
+                      Hair designer (master's degree);
+                    </li>
+                      </ul>
+                  </div>
+                  <div>
+                    <h2>Work experience:</h2>
+                      <ul class="advantage__bcg-list">
+                    <li>
+                      2007 - 2003 - Worked in hair salons in Sumy and Kyiv (men's, women's, children's haircuts and hair coloring);
+                    </li>
+                    <li>
+                      2007 - 2012 - "Mojo" image studio, "Leto" hairdressing salon, Kyiv (haircuts, various dyeing techniques, styling, camouflage of gray hair, keratin hair straightening, bio-perm, restoration, treatment);
+                    </li>
+                    <li>
+                      2012 – 2021 – Director and leading stylist of the beauty studio "SAIS" in Kyiv;
+                    </li>
+                    <li>
+                      2021 – present time - director of the "De Lacrua" beauty salon.
+                    </li>
+                      </ul>
+                  </div>
+              </div>
+            </div>
+            <div class="advantage__card-name">
+              <h2 class="title">Professional activity</h2>
+            </div></a>
+        </li>
+        <li class="advantage__item">
+          <a class="advantage__link" href="#">
+            <div class="advantage__card">
+              <img
+                src="/img/img_advantage/photo_2022-09-14_19-02-01.jpg"
+                alt=""
+                class="advantage__img"
+              />
+              <div class="advantage__bcg">
+                <div>
+                  <h2>2007- 2012  in her spare time, she was engaged in teaching activities</h2>
+                    <ul class="advantage__bcg-list">
+                  <li>
+                    in the training center ART Ukraine - hairdressing art (2 years),
+                  </li>
+                  <li>
+                    Vlada Lytovchenko's "Karin" school - hair care, basic hairstyles, styling (2 years).                
+                  </li>
+                    </ul>
+                </div>
+                <div>
+                  <h2>2018 – 2022 </h2>
+                    <ul class="advantage__bcg-list">
+                  <li>
+                    in the academy "HAIRDESIGN" - teacher of hairdressing.
+                  </li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <div class="advantage__card-name">
+              <h2 class="title">Teaching activity</h2>
+            </div></a>
+        </li>
+        <li class="advantage__item">
+          <a class="advantage__link" href="#">
+            <div class="advantage__card">
+              <img
+                src="/img/img_advantage/photo_2022-09-14_19-02-04.jpg"
+                alt=""
+                class="advantage__img"
+              />
+              <div class="advantage__bcg">
+                <p class="advantage__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quidem magni ad optio. Rem consequatur quasi aliquid nisi veritatis quisquam cumque ad vitae similique labore. Rerum exercitationem non commodi harum?
+                </p>
+              </div>
+            </div>
+            <div class="advantage__card-name">
+              <h2 class="title">Diplomas/Awards</h2>
+            </div></a>
+        </li>
+      </ul>
+    </div>
+</section>
+
+<!-- Секція футер -->
+<footer class="footer__section">
+    <div class="container footer__container">
+        <div class="footer__box">
+            <div class="footer__address">
+                <address>
+                    <h3 class="footer__title ">Contacts:</h3>
+                    <ul class="footer__contacts-list">
+                        <li class="footer__contacts-item">
+                            <a class="footer__contacts-link footer__location" href="https://goo.gl/maps/3sQ51zwUnDky5kJJ9"
+                                target="_blank" rel="noopener noreferrer">Holten, The Netherlands
+                                 <svg class="location" width="25" height="25">
+                                    <use href="/img/footer-icon.svg#icon-location"></use>
+                                </svg></a>
+                        </li>
+                        <li class="footer__contacts-item">
+                            <a class="footer__contacts-link footer__mail" href="mailto:" Citrus _i@ukr.net">Citrus_i@ukr.net
+                                <svg class="mail" width="25" height="25">
+                                <use href="/img/footer-icon.svg#icon-envelop"></use>
+                            </svg></a>
+                        </li>
+                        <li class="footer__contacts-item">
+                            <a class="footer__contacts-link footer__phone" href="tel:+380966877071">+38 096 687 70 71
+                                <svg class="phone" width="25" height="25">
+                                    <use href="/img/footer-icon.svg#icon-phone"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            <div class="footer__socials">
+                <h3 class="footer__title socials__title">Follow Us:</h3>
+                <ul class="footer__socials-list">
+                    <li class="footer__socials-item">
+                        <a class="footer__socials-link" href="https://www.instagram.com/iya_sayenko/" target="_blank"
+                            rel="noopener noreferrer" aria-label="icon-instagram">
+                            <svg class="footer__socials-icon" width="40" height="40">
+                                <use href="/img/footer-icon.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer__socials-item">
+                        <a class="footer__socials-link" href="" target="_blank" rel="noopener noreferrer"
+                            aria-label="icon-viber">
+                            <svg class="footer__socials-icon" width="40" height="40">
+                                <use href="/img/footer-icon.svg#icon-viber"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer__socials-item">
+                        <a class="footer__socials-link" href="" target="_blank" rel="noopener noreferrer"
+                            aria-label="icon-telegram">
+                            <svg class="footer__socials-icon" width="40" height="40">
+                                <use href="/img/footer-icon.svg#icon-telegram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer__socials-item">
+                        <a class="footer__socials-link" href="" target="_blank" rel="noopener noreferrer"
+                            aria-label="icon-whatsapp">
+                            <svg class="footer__socials-icon" width="40" height="40">
+                                <use href="/img/footer-icon.svg#icon-whatsapp"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__schedule">
+                <h3 class="footer__title">Mode of operation: </h3>
+                <ul class="footer__schedule-list">
+                    <li class="footer__schedule-item">C 10:00 до 21:00 (Mon.-Fri.)</li>
+                    <li class="footer__schedule-item">С 11:00 до 20:00 (Sat.-Sun.)</li>
+                </ul>
+            </div>
+        </div>
+        <!-- <div class="footer__logo">
+            <a class="footer__logo-link" href="#">
+                <svg class="footer__logo-icon logo__icon" width="40" height="40">
+                    <use href="/img/symbol-defs.svg#barberrscissors"></use>
+                </svg>
+            </a>
+        </div> -->
+    </div>
+</footer>
+
+  </body>
+</html>
