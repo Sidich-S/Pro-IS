@@ -256,7 +256,7 @@
 
 .hero-bloc {
   display: flex;
-  background-image: url(/img/hero/foto-bgc.jpeg);
+  background-image: url(./img/hero/foto-bgc.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
